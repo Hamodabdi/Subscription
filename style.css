@@ -1,0 +1,143 @@
+:root {
+    --primary-color: #21204C;
+    --secondry-color: #9A98A8;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body {
+    margin: 1002px;
+}
+
+.container {
+    background-color: var(--primary-color);
+    position: absolute;
+    left: 265px;
+    top: 119px;
+    height: 580px;
+    border: 6px solid var(--primary-color);
+    border-radius: 24px;
+    width: 779px;
+}
+
+.container1 {
+    position: relative;
+    left: -53px;
+    top: 50px;
+    width: 877px;
+    height: 490px;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 69px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+
+
+h1 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+
+.small-text {
+    position: relative;
+    font-size: 18px;
+    width: 370px;
+    left: 265px;
+    color: var(--secondry-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.center-icon {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 18px;
+    gap: 30px;
+}
+
+.quick-access {
+    cursor: pointer;
+    position: relative;
+    font-size: 1.2rem;
+    padding: 5px;
+    color: black;
+    background-color: #F2F2FB;
+    border: 1px solid #ccc;
+    border-radius: 33px;
+    display: inherit;
+    align-items: center;
+    justify-content: center;
+    width: 155px;
+}
+
+
+.cards {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    top: 70px;
+    height: 244px;
+}
+
+img {
+    object-fit: cover;
+    size: 86px;
+    width: 100px;
+    border: 1px solid white;
+    border-radius: 60px;
+    position: relative;
+    left: 50px;
+
+}
+
+.all-card {
+    position: relative;
+    border: 5px solid white;
+    width: 208px;
+}
+
+.all-card:hover {
+   
+    height: 220px;
+}
+
+
+.all-name {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    font-size: 1.4rem;
+}
+
+.all-job {
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 1rem;
+}
+
+button {
+    position: relative;
+    cursor: pointer;
+    top: 5px;
+    left: 42px;
+    background-color: var(--primary-color);
+    color: white;
+    padding: 5px;
+    border: 1px solid white;
+    border-radius: 52px;
+    width: 108px;
+    height: 40px;
+}
